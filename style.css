@@ -28,6 +28,47 @@ table {
 	border-spacing: 0;
 } 
 /* конец кода сброса стилей браузера */
+article {
+  padding-left: 300px; 
+  
+}
+figure {
+  float:left;
+}
+nav {
+  padding-top: 200px;
+  
+   float:left;
+}
+form {  
+  text-align: right;
+}
+h1 {
+  text-align: right;
+}
+.Search {
+  text-align: center;
+  padding-right: 500px;
+}
+footer {
+  padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
