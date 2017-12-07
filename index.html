@@ -7,8 +7,7 @@
 </head>
 <body>
 <header>
-<!--для логотипа задать класс-->
-<a href="#footer">
+<a href="index.html">
 <figure>
 <img src="employee.png" alt="Логотип"  width="128" height="128">
 <figcaption> Мой проект </figcaption>
@@ -17,11 +16,11 @@
 </header>
 <nav>
 <ul>
-<li> Новости </li>
-<li> Примеры </li>
-<li> Задания </li> 
-<li> Подсказки </li>
-<li> Ответы </li>
+<li><a href="news.html">Новости</a></li>
+<li><a href="examples.html">Примеры</a></li>
+<li><a href="tasks.html">Задания</a></li> 
+<li><a href="help.html">Подсказки</a></li>
+<li><a href="answers.html">Ответы</a></li>
 </ul>
 </nav>
 <form class="Search">
@@ -33,11 +32,11 @@
 <form class="subform"  method="post" action="submit.html">
 <p>
 <label for="name" class="label">Ваше имя?</label>
-<input type="text" name="name" id="name">
+<input type="text" name="name" >
 </p>
 <p>
 <label for="email" class="label">Ваш адрес электронной почты</label>
-<input type="text" name="email" id="email">
+<input type="text" name="email">
 </p>
 <p><span class="label">Навыки общения</span>
 <label>
@@ -52,7 +51,7 @@
 </p>
 <p>
 <label for="refer" class="label">Откуда вы узнали о нас? </label>
-<select name="refer" id="refer">
+<select name="refer" >
 <option value="null">Выберите вариант</option>
 <option value="1">От знакомых</option>
 <option value="2">Телевидение</option>
@@ -62,7 +61,7 @@
 </p>
 <p>
 <label for="comments" class="label">Ещё не много о себе </label>
-<textarea name="comments" cols="35" rows="4" id="comments"></textarea>
+<textarea name="comments" cols="35" rows="4" ></textarea>
  </p>
 <p>
 <input type="submit" value="Подписаться навеки">
@@ -70,6 +69,7 @@
 </form>
 <!--отредактировать вэб-формы для регистрации -->
 <article>
+<section>
 <h1> Заголовок статьи </h1>
 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
 totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
@@ -85,12 +85,13 @@ laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et qu
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
 laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 </p>
+</section>
 <section>
 <img src="home-office-apple-inc-business-computer-desk-table.jpg" alt="Люди" width="600" height="434">
 <!--Блок картинка-->
 </section>
 <section>
-<h3> Важная информация </h3>
+<h1> Важная информация </h1>
 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
 laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
@@ -103,7 +104,6 @@ laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et qu
 </section>
 </article>
 <footer>
-<a name="footer"></a>
 Наш адрес: г. Москва ул.Проспек Вернадского дом 451
 Кантактные данные: телефон (498)142-42-42 почта : <a href="mailto:value@yandex.ru">value@yandex.ru</a> 
 </footer>

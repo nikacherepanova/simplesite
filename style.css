@@ -28,17 +28,28 @@ table {
 	border-spacing: 0;
 } 
 /* конец кода сброса стилей браузера */
+html {
+  font-family: PTSans, Arial, sans-serif;  
+  font-size: 1.3em;
+  background: rgba(65,105,225,.2);
+}
+nav {
+  font-size: 1.1em;
+  padding-top: 180px;
+  float:left;
+  margin-left: -90px;
+}
+h1{
+  line-height: 2;
+}
 article {
   padding-left: 300px; 
-  
+}
+section{
+  background: rgb(95, 158, 160);
 }
 figure {
   float:left;
-}
-nav {
-  padding-top: 200px;
-  
-   float:left;
 }
 form {  
   text-align: right;
@@ -51,6 +62,7 @@ h1 {
   padding-right: 500px;
 }
 footer {
+  font-size: 0.9em;
   padding-top: 50px;
 }
 
