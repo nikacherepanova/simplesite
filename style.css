@@ -34,25 +34,52 @@ html {
   background: rgba(65,105,225,.2);
 }
 nav {
-  font-size: 1.1em;
-  padding-top: 180px;
+  font-size: 1em;
+  padding-top: 200px;
   float:left;
-  margin-left: -90px;
+  margin-left: -110px;
+  background-color: #5F9EA0;
+  margin-top: 180px;
+  padding: 0;
+  
 }
-h1{
+
+ nav li:last-of-type  {
+  border-bottom: 3px solid #696969;
+}
+ul {
+  list-style: none; 
+  margin-left: -30px;
+}
+ul a{
+  text-decoration: none;
+  color: #CD5C5C;
+}
+ul li{
+  height: 40px;
+  width: 200px;
+  border: 3px solid #696969;
+  text-transform: uppercase;
+  border-bottom: none;
+  
+}
+
+article h1{
+  text-align: center;
   line-height: 2;
 }
 article {
   padding-left: 300px; 
 }
 section{
-  background: rgb(95, 158, 160);
+  background: rgba(95, 158, 160,.4); 
 }
 figure {
   float:left;
 }
 form {  
   text-align: right;
+  background: rgb(255, 218, 185);
 }
 h1 {
   text-align: right;
