@@ -35,17 +35,19 @@ html {
 }
 nav {
   font-size: 1em;
-  padding-top: 200px;
   float:left;
   margin-left: -110px;
   background-color: #5F9EA0;
-  margin-top: 180px;
-  padding: 0;
-  
+  margin-top: 240px;
+  text-align: center;
+  line-height: 2;
 }
-
  nav li:last-of-type  {
-  border-bottom: 3px solid #696969;
+  border-bottom: 3px solid #F0FFF0;
+}
+nav a:hover{
+  font-weight: bold;
+  background-color: #F0FFF0;
 }
 ul {
   list-style: none; 
@@ -53,15 +55,14 @@ ul {
 }
 ul a{
   text-decoration: none;
-  color: #CD5C5C;
+  color: #4169E1;
+  display: block;
 }
 ul li{
   height: 40px;
-  width: 200px;
-  border: 3px solid #696969;
-  text-transform: uppercase;
+  width: 230px;
+  border: 3px solid #F0FFF0;
   border-bottom: none;
-  
 }
 
 article h1{
