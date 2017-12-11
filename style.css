@@ -36,9 +36,9 @@ html {
 nav {
   font-size: 1em;
   float:left;
-  margin-left: -110px;
-  background-color: #5F9EA0;
-  margin-top: 240px;
+  margin-left: -180px;
+  background-color: #dbceb0;
+  margin-top: 210px;
   text-align: center;
   line-height: 2;
 }
@@ -55,7 +55,7 @@ ul {
 }
 ul a{
   text-decoration: none;
-  color: #4169E1;
+  color: #454140;
   display: block;
 }
 ul li{
@@ -64,12 +64,33 @@ ul li{
   border: 3px solid #F0FFF0;
   border-bottom: none;
 }
-
-article h1{
+h1 {
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 2;
+  height: 24px;
+  width: 240px;
+  margin-top: 30px;
+  margin-left: 1100px;
+  text-align: center;
+}
+h1 a{
+  background-color: #dbceb0;
+  border: 3px solid #F0FFF0;
+  color: #454140;
+  text-decoration: none;
+  display: block;
+}
+h1 a:hover{
+  font-weight: bold;
+  background-color: #F0FFF0;
+}
+article h2{
   text-align: center;
   line-height: 2;
 }
 article {
+  margin-top: 23px;
   padding-left: 300px; 
 }
 section{
@@ -77,13 +98,8 @@ section{
 }
 figure {
   float:left;
-}
-form {  
-  text-align: right;
-  background: rgb(255, 218, 185);
-}
-h1 {
-  text-align: right;
+  margin-top: 20px;
+  padding-left: 90px;
 }
 .Search {
   text-align: center;
