@@ -101,6 +101,13 @@ figure {
   margin-top: 20px;
   padding-left: 90px;
 }
+figure figcaption {
+  color: #454140;
+  padding-left: 3px;
+  font-size: 1.1em;
+	font-family: PTSans, Arial, sans-serif;
+}
+
 .Search {
   text-align: center;
   padding-right: 500px;

@@ -1,0 +1,184 @@
+/* сброс стилей браузера */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+/* конец кода сброса стилей браузера */
+body {
+	width: 760px;
+	margin: 0 auto;	
+	background-color: rgba(65,105,225,.2);
+	color: #454140;
+}
+form {
+  margin-top: 20px;
+}
+
+h1 {
+	font-size: 2em;
+	font-family: PTSans, Arial, sans-serif;
+	font-weight: normal;
+	padding-bottom: 4px;	
+	margin: 25px 0;
+  color: #454140;
+}
+
+p {
+	margin-bottom: 25px;	
+}
+
+figure {
+  float:left;
+  margin-top: 20px;
+  margin-left:-300px;
+  padding-left: 20px;
+}
+
+figure figcaption {
+  color: #454140;
+  padding-left: 15px;
+  font-size: 1.2em;
+	font-family: PTSans, Arial, sans-serif;
+}
+
+.subform {
+  font-size:1.2em;
+  font-family: PTSans, Arial, sans-serif;
+  color: #454140;
+}
+
+.subform .label {
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+  margin-right: 8px;
+}
+
+.subform input[type=submit]  {
+  margin-left: 220px;
+  padding-top: 5px;
+  padding-right: 25px;
+  font-size: 1em;
+  color: #454140;
+  background-color: #dbceb0;
+  box-shadow: 0 0 4px white;
+  border: 3px solid #F0FFF0;
+  font-weight: bold;
+}
+
+.subform select {
+  font-size: 1em;
+}
+.subform input[type=text], .subform textarea {
+  border-radius: 5px;
+  border: none;
+  background-color: #FFFFE0 ;
+  color: #454140;
+  font-size: 1.2em;
+  width: 400px;
+  padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
