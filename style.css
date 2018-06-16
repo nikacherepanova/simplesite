@@ -3,36 +3,43 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
 }
+
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
+
 body {
-	line-height: 1.2;
+  line-height: 1.2;
 }
-ol { 
-	padding-left: 1.4em;
-	list-style: decimal;
+
+ol {
+  padding-left: 1.4em;
+  list-style: decimal;
 }
+
 ul {
-	padding-left: 1.4em;
-	list-style: square;
+  padding-left: 1.4em;
+  list-style: square;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
-} 
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 /* конец кода сброса стилей браузера */
 html {
   font-family: PTSans, Arial, sans-serif;  
   font-size: 1.3em;
   background: rgba(65,105,225,.2);
 }
+
 nav {
   font-size: 1em;
   float:left;
@@ -42,28 +49,34 @@ nav {
   text-align: center;
   line-height: 2;
 }
- nav li:last-of-type  {
+
+nav li:last-of-type  {
   border-bottom: 3px solid #F0FFF0;
 }
+
 nav a:hover{
   font-weight: bold;
   background-color: #F0FFF0;
 }
+
 ul {
   list-style: none; 
   margin-left: -30px;
 }
+
 ul a{
   text-decoration: none;
   color: #454140;
   display: block;
 }
+
 ul li{
   height: 40px;
   width: 230px;
   border: 3px solid #F0FFF0;
   border-bottom: none;
 }
+
 h1 {
   font-weight: normal;
   font-size: 1em;
@@ -74,6 +87,7 @@ h1 {
   margin-left: 1100px;
   text-align: center;
 }
+
 h1 a{
   background-color: #dbceb0;
   border: 3px solid #F0FFF0;
@@ -81,31 +95,37 @@ h1 a{
   text-decoration: none;
   display: block;
 }
+
 h1 a:hover{
   font-weight: bold;
   background-color: #F0FFF0;
 }
+
 article h2{
   text-align: center;
   line-height: 2;
 }
+
 article {
   margin-top: 23px;
   padding-left: 300px; 
 }
+
 section{
   background: rgba(95, 158, 160,.4); 
 }
+
 figure {
   float:left;
   margin-top: 20px;
   padding-left: 90px;
 }
+
 figure figcaption {
   color: #454140;
   padding-left: 3px;
   font-size: 1.1em;
-	font-family: PTSans, Arial, sans-serif;
+  font-family: PTSans, Arial, sans-serif;
 }
 
 .Search {
@@ -113,6 +133,7 @@ figure figcaption {
   padding-right: 500px;
   margin-top:20px;
 }
+
 .Search input{
   width: 300px;
   height: 35px;
@@ -121,6 +142,7 @@ figure figcaption {
   color: #9E9C9C;
   font-size: 16px;
 }
+
 .Search button {
   margin-top: 20px;
   top:0.3px;
@@ -136,25 +158,3 @@ footer {
   font-size: 0.9em;
   padding-top: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
